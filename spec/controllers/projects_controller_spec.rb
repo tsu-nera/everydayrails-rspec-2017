@@ -62,7 +62,7 @@ RSpec.describe ProjectsController, type: :controller do
     end
   end
 
-  describe "create" do
+  describe "#create" do
     context "as an authenticated user" do
       before do
         @user = FactoryBot.create(:user)
